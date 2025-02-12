@@ -160,7 +160,7 @@ const pesquisaDePalavraChave = function(telefone,palavra,contato){
     }
 }
 
-console.log(getConversaEContato('11966578996', 'José Maria da Silva'))
+
 
 module.exports = {
     getDadosPessoaisPorUsuario,
