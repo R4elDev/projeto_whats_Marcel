@@ -140,7 +140,6 @@ const pesquisaDePalavraChave = function(telefone,palavra,contato){
     }
 
     base.forEach(function(item){
-        console.log('forEach 1')
         item.contacts.forEach(function(itemContato){
             if(String(item.number) == tell && String(itemContato.name).toLowerCase() == cont){
                 itemContato.messages.forEach(function(itemMensagem){
